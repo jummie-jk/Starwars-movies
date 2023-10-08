@@ -31,6 +31,18 @@
     transform: translate(-50%, -50%);
     z-index: 999; 
   }
+  .movie-title{
+    font-size: 2rem;
+    padding-bottom: 0rem;
+  }
+  .movie-date{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    color: rgb(178, 178, 178);
+  }
+  .movie-text{
+    font-size: 1.5rem;
+  }
 
   
 

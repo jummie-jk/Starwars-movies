@@ -100,9 +100,9 @@ function MovieList() {
       ) : (
         movies.map((movie) => (
           <div className="movie-card" key={movie.episode_id}>
-            <h2>{movie.title}</h2>
-            <p>Release Date: {movie.release_date}</p>
-            <p>{movie.opening_crawl}</p>
+            <h2 className='movie-title'>{movie.title}</h2>
+            <p className='movie-date'> {movie.release_date}</p>
+            <p className='movie-text'>{movie.opening_crawl}</p>
             {/* <a href="#">More Info</a> */}
            
           </div>
