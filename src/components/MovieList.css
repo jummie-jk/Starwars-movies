@@ -1,8 +1,8 @@
 
 .movie-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
   }
   
   .movie-card {
@@ -42,6 +42,12 @@
   }
   .movie-text{
     font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .movie-info{
+    font-size: 1.3rem;
+    color: yellow;
+    text-decoration: none;
   }
 
   

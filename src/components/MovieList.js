@@ -38,7 +38,7 @@ function MovieList() {
             <h2 className='movie-title'>{movie.title}</h2>
             <p className='movie-date'> {movie.release_date}</p>
             <p className='movie-text'>{movie.opening_crawl}</p>
-            {/* <a href="#">More Info</a> */}
+            <a  className="movie-info"href="#">More Info</a>
            
           </div>
         ))

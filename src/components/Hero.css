@@ -6,9 +6,9 @@
     font-size: 62.5%;
   } 
   body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
-    padding: 0 4rem;
+    padding: 0 7rem;
     background-color: black;
   }
 .background--img{ 
