@@ -14,12 +14,6 @@
 .background--img{ 
     width: 100%;
     padding-bottom: 4rem;
-    /* overflow-y: hidden;
-    overflow-x: hidden;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
     color: white;
 }
 .hero--text{
@@ -37,9 +31,10 @@
   html {
     font-size: 58%;
   } 
+}
+@media screen and (max-width: 800px) {
   .hero--text{
-    padding-top: 16rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-top: 0.5rem;
+    text-align: center;
 }
 }
